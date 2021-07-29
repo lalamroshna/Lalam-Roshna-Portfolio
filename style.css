@@ -1,0 +1,61 @@
+body{
+    background-color:oldlace;
+}
+header{
+    background-image: url("/images/joanna-kosinska-unsplash.jpg");
+    position:absolute;
+    left: 510px;
+    padding:20px;
+    width: 800px;
+}
+img{
+    width:300px;
+}
+#header{
+    width:500px;
+    height:253px;
+    padding:0px;
+}
+.flexbox, .list{
+    display: flex;
+    flex-direction: row;
+}
+.project, .experience, .education{
+    width:300px;
+    background-color: palegreen;
+    margin:10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.project{
+    padding:10px 50px 10px 10px; 
+    position:absolute;
+    right:800px;
+    height:450px;
+}
+.experience{
+    padding:10px 10px 10px 50px; 
+    position:absolute;
+    left:800px;
+    height:450px;
+}
+.education{
+    padding:20px;
+    height:200px;
+    z-index: 2;
+    position:absolute;
+    right:500px;
+    top:400px;
+}
+#footer{
+    position:absolute;
+    top:800px; 
+    background-color: goldenrod;
+    width: 1340px;
+}
+li{
+    margin:0px 40px 0px 40px;
+}
+
+
+
